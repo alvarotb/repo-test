@@ -8,8 +8,10 @@ def default():
     print('o que voce quer?')
 
 def main():
-    if sys.argv[1] == 'klingon':  #add
-       klingon()  #add
+    if sys.argv[1] == 'klingon':
+       klingon()
+    elif sys.argv[1] == 'volcano':	#modified
+       volcano()
     else:
        default()
 
